@@ -1,0 +1,25 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+body >h1,h2{
+    font-family: 'Lora', serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container >div{
+    padding: 20px;
+    text-align:center;
+    background-color:darkviolet;
+    margin: 30px;
+    width: 250px;
+    font-size: 20px;
+    
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 2px rgb(162, 140, 207);
+}
